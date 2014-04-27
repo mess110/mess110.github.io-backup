@@ -5,16 +5,32 @@ html, body {
   height: 100%;
 }
 
+/* http://www.dafont.com/extrude.font?text=Ben+Eath+The+Surf+Ace&back=bitmap */
+@font-face
+{
+  font-family: PixelFont;
+  src: url('../fonts/Extrude.ttf');
+}
+
+* {
+  font-family: PixelFont;
+  font-size: 30px;
+}
+
 body {
   background: whiteSmoke;
-  font-family: Verdana;
 }
 
 img {
   display: none;
 }
 
+p {
+  text-align: center;
+}
+
 #game {
+  padding-top: 50px;
   display: block;
   margin: auto;
 }
